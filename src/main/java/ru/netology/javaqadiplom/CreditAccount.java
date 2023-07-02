@@ -14,7 +14,7 @@ public class CreditAccount extends Account {
      * должно выкидываться исключения вида IllegalArgumentException.
      * @param initialBalance - неотрицательное число, начальный баланс для счёта
      * @param creditLimit - неотрицательное число, максимальная сумма которую можно задолжать банку
-     * @param rate - неотрицательное число, ставка кредитования для расчёта долга за отрицательный баланс
+     * @param rate - неотрицательное число, ставка кредитования для расчёта долга за отрицательный баланс.
      */
     public CreditAccount(int initialBalance, int creditLimit, int rate) {
         if (rate <= 0) {
